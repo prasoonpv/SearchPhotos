@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task_Prasoon</string>
+    <string name="no">No</string>
+    <string name="okay">Okay</string>
+    <string name="yes">Yes</string>
+    <string name="msg_alert_no_internet">No Internet</string>
+    <string name="_search">Search here</string>
+</resources>

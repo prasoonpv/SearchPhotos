@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+        <item name="android:textSize">@dimen/size_12</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/size_14</item>
+    </style>
+
+    <!--Default Normal Text -->
+    <style name="Normal_Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size_14</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <!--Default Header Text -->
+    <style name="Header_text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+        <item name="android:textSize">@dimen/size_15</item>
+    </style>
+
+    <!--Default Normal Text color black-->
+    <style name="Normal_Primary_Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/size_14</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <!--Default Header Text color black -->
+    <style name="Header_Primary_Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+        <item name="android:textSize">@dimen/size_15</item>
+    </style>
+
+    <!--Default Normal Text primary color-->
+    <style name="Normal_Secondary_Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/size_14</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <!--Default Header Text primary color -->
+    <style name="Header_Secondary_Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+        <item name="android:textSize">@dimen/size_15</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="FullscreenActionBarStyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBarOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
